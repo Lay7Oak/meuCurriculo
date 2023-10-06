@@ -1,6 +1,9 @@
-body {
+
+body,html {
     text-align: center;
-    margin-top: 20px;
+    margin:20px;
+    height: auto;
+
 }
 
 .left-column {
@@ -55,10 +58,13 @@ ul {
 @media screen and (max-width: 600px) {
 
     .left-column {
-        width: 0 auto;
+        width: auto;
+
     }
 
     html,body{
         margin-top: 0;
     }
+
 }
+
